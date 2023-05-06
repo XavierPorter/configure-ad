@@ -33,7 +33,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>1. Setup Resources in Azure.</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tvjUVmY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3j18xuG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <ol>
  <li>Create the Domain Controller VM (Windows Server 2022) named “DC-1”</li>
