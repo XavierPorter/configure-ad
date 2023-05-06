@@ -63,12 +63,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>3. Install Active Directory</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/IftiJZD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/p60G9KV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <ol>
-    <li>Login to DC-1 and install Active Directory Domain Services</li>
-    <li>Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)</li>
+    <li>Login to DC-1 and in the Server Manager, click "Add roles and features" and install Active Directory Domain Services</li>
+    <li>Click the flag in the top right hand corner to promote as a Domain Controller: Setup a new forest as mydomain.com (can be anything, just remember what it is)</li>
     <li>Restart and then log back into DC-1 as user: mydomain.com\labuser</li>
   </ol>
 </p>
