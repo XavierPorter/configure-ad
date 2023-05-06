@@ -48,12 +48,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>2. Ensure Connectivity between the client and Domain Controller.</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LdNMJFD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7s66jli.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <ol>
-    <li>Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)</li>
-    <li>Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall</li>
+    <li>Login to Client-1 with Remote Desktop (IP Address) and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)</li>
+    <li>Login to the Domain Controller (DC-1) and in the start menu, type "wf.msc" -> click inbound files -> Sort by Protocol -> right click and enable ICMPv4 in on the local windows Firewall</li>
     <li>Check back at Client-1 to see the ping succeed</li>
   </ol>
 </p>
