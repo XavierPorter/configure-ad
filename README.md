@@ -79,14 +79,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>4. Create an Admin and Normal User Account in AD</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xW1wf8V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/HGP3vTR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <ol>
-    <li>In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”</li>
+    <li>In the Sever Manager, click "Tools"</li>
+    <li>In Active Directory Users and Computers (ADUC), right click on "mydomain", click "New" and create an Organizational Unit (OU) called “_EMPLOYEES”</li>
     <li>Create a new OU named “_ADMINS”</li>
-    <li>Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”</li>
-    <li>Add jane_admin to the “Domain Admins” Security Group</li>
+    <li>Refresh</li>
+    <li>Right click in the empty space and click "New" then click "User"</li>
+    <li>Create a new employee named “Jane Doe” (same password) with the username of   “jane_admin”</li>
+    <li>Right click "Jane Doe" and seleect "Properties"</li>
+    <li>Select the "Members Of" tab and click "Add"</li>
+    <li>In the empty space, type "domains" and Add jane_admin to the “Domain Admins” Security Group</li>
     <li>Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”</li>
     <li>Use jane_admin as your admin account from now on</li>
   </ol>
