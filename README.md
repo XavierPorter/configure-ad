@@ -145,7 +145,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>7. Create a bunch of additional users and attempt to log into client-1 with one of the users</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PJtLpto.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <ol>
